@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/30e8db45bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Files/NewLogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio-hidden">Portfolio</a></li>
+                    <li><a href="#contact-section">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Hello,I'm</p>
+                <h1>Gourav Pradhan</h1>
+                <div class="edit-text">
+                    <p>I'm a <span class="auto-type"></span></p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!----------about me--------->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Files/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <div class="section-title">
+                    <h1>About Me</h1>                    
+                </div>    
+                <div class="about-text ">
+                    <p>I am a student at Centurion University, Bhubaneshwar graduating in 2023. 
+                        I am very enthusiastic at my work. My creativity and punctuality makes my 
+                        professionalism shine. My portfolio showcases my skills and accomplishments
+                        as a developer, and I'm excited to share it with you.</p>
+                </div>
+                    <div class="row">
+                        <div class="personal-info padd - 15">
+                            <div class="row">
+                                <div class="info-item padd -20">
+                                    <p>Birthday : <span>7th October 2000</span></p>
+                                </div>
+                                <div class="info-item padd -20">
+                                    <p>Age : <span>22</span></p>
+                                </div>
+                                <div class="info-item padd - 50">
+                                    <p>Degree : <span>B.Tech (CSE)</span></p>
+                                </div>
+                                <div class="info-item padd - 20">
+                                    <p>Email : <span>pradhankgourav@gmail.com</span></p>
+                                </div>
+                                <div class="info-item padd -20">
+                                    <p>Phone : <span>+91 7978116062</span></p>
+                                </div>
+                                <div class="info-item padd -20">
+                                    <p>City : <span>Bhubaneswar</span></p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="Files/My CV.pdf" class="btn-cv">Show CV</a>
+                            </div>
+                        </div>    
+                         </div>
+                        <div class="row">
+                        <div class="education">
+                            <h3 class="titleh3">Education</h3>
+                            <div class="row">
+                                <div class="timeline-box padd -15">
+                                    <div class="timeline shadow-dark">
+                                       <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2019 - 2023
+                                        </h3>
+                                        <h4 class="timeline-title">Pursuing Bachelor of Technology</h4>
+                                        <p class="timeline-text">Pursing BTech with specialization in Computer Science typically involves 
+                                            the study of topics such as software development, computer networks, database management, 
+                                            data structures, and operating systems.</p>
+                                       </div>
+                                       <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2018 - 2019
+                                        </h3>
+                                        <h4 class="timeline-title">Completed my 12th Board</h4>
+                                        <p class="timeline-text">
+                                            I completed the 12th grade at Kendriya Vidyalaya Khurdha Road in 2019. I had a large variety of 
+                                            topics and extracurricular activities to choose from, which was a great learning experience. 
+                                            The teachers were really educated and helpful.</p>
+                                       </div>
+                                       <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2016 - 2017
+                                        </h3>
+                                        <h4 class="timeline-title">Completed my 10th Board</h4>
+                                        <p class="timeline-text">
+                                            I completed the 10th grade at Kendriya Vidyalaya Khurdha Road in 2017. I had a large variety of 
+                                            topics and extracurricular activities to choose from, which was a great learning experience. 
+                                            The teachers were really educated and helpful.</p>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3 class="titleh3">Skills</h3>
+                            <div class="row">
+                                <div class="skill-item padd -15">
+                                    <h5>JAVA</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 90%;"></div>
+                                        <div class="skill-percent">90%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd -15">
+                                    <h5>C</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 80%;"></div>
+                                        <div class="skill-percent">80%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd -15">
+                                    <h5>C++</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 80%;"></div>
+                                        <div class="skill-percent">80%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd -15">
+                                    <h5>Python</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 80%;"></div>
+                                        <div class="skill-percent">80%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd -15">
+                                    <h5>HTML & CSS</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 70%;"></div>
+                                        <div class="skill-percent">70%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd -15">
+                                    <h5>Javascript</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 70%;"></div>
+                                        <div class="skill-percent">70%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd -15">
+                                    <h5>Bootstrap</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 70%;"></div>
+                                        <div class="skill-percent">70%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd -15">
+                                    <h5>MYSQL</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 70%;"></div>
+                                        <div class="skill-percent">70%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd -15">
+                                    <h5>Machine learning</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 70%;"></div>
+                                        <div class="skill-percent">70%</div>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div id="portfolio-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="section2-title padd- 15">
+                    <h3>Portfolio</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/Ehospital.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/Diseaseleaf.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/Grafana.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/facemask.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/QGIS classification.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/blockchain1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/blockchain2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/internship.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="Files/java.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------Start contact--------------->
+<div id="contact-section">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <div class="section3-title ">
+                <h3>Contact Me</h3>
+                <p><i class="fa-solid fa-envelope"></i>pradhankgourav@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i> +91 7978116062</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gourav-pradhan-9932b4208/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/gpradhan07"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/_pradhan_07"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name " required>
+                <input type="email" name="Email" placeholder="Your Email-Id" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn-cv">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created by Gourav © All rights reserved</p>
+    </div>
+</div>
+</div>
+<!-----------End contact--------------->
+  
+    <!-------------works------------->
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["Student" , "Developer","Coder"],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true
+        })
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right='0';
+        }
+        function closemenu(){
+            sidemeu.style.right='-200px';
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwvelvafihQ-7Yo4cTLJVNstz43K9D-s7gObEk4XQfO6POScM61uin7E3UyuhjPYig/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Sucessfully..."
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
+
